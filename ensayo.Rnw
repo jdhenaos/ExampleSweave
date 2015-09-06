@@ -111,6 +111,39 @@ plot('This is x','This is y', type="n", xlim=c(0,100),ylim=c(0,10))
 lines(1:100,sqrt(1:100))
 title("raiz cuadrada")
 @
-  \section{Cuidado con las variables cualitativas}
+  \section*{Cuidado con las variables cualitativas}
+<<>>=
+#class(sexo)
+#class(peso)
+sitio<-c(1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0)
+sitio
+summary(sitio)
+summary(as.factor(sitio))
+sitio<-c(1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,NA,NA,NA)
+sitio
+summary(as.factor(sitio))
+summary(as.factor(na.omit(sitio)))
+@
+<<fig=TRUE>>=
+pie(summary(as.factor(na.omit(sitio))))
+@
+<<fig=TRUE>>=
+barplot(summary(as.factor(na.omit(sitio))))
+@
+<<fig=TRUE>>=
+barplot(summary(as.factor(na.omit(sitio))), horiz = TRUE, col="blue")
+@
 
+  \begin{itemize}
+  \item Verificar distribución normal gráficamente: comparación de los cuartiles observados con los cuartiles teóricos bajo distribución normal. Si la relación es lineal hay indicios de normalidad:
+  \end{itemize}
+  
+<<>>=
+data <- read.table("data.txt", header = T)
+y <- data$peso[data$sexo == "h"]
+@
+<<fig=TRUE>>=
+qqnorm(y)
+@
+  
 \end{document}
