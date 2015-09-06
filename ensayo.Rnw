@@ -35,7 +35,7 @@ ut2<-rbind(u,t) #combinar filas
 ut2
 class(ut2)
 x <- rnorm(1000, mean = 3, sd = 2) 
-x
+x[1:100]
 x1 <- matrix(x,nrow = 10, ncol = 100) 
 x1
 class(x1)
@@ -141,9 +141,57 @@ barplot(summary(as.factor(na.omit(sitio))), horiz = TRUE, col="blue")
 <<>>=
 data <- read.table("data.txt", header = T)
 y <- data$peso[data$sexo == "h"]
+y
 @
 <<fig=TRUE>>=
 qqnorm(y)
 @
   
+  \section*{Manejo de Tablas Grandes}
+
+<<>>=
+tom2<-read.table("base-filtro3-6sept.txt",h=T) #base filtrada con base en expresion
+tom2[1:100,]
+names(tom2)
+attach(tom2)
+genesR<-read.table("genes-resist.txt",h=T) #lista de todos los genes antes del filtro
+genesR[1:100,]
+dim(genesR)
+names(genesR)
+attach(genesR)
+genes.resistance<-genes.ori[resistance==1] #solamente los genes de resistencia
+genes.resistance
+indres<-which(genes.ori%in%genes.resistance) # ind genes de resistencia en nueva base
+indres
+genesres<-na.omit(unique(genes.ori[indres]))
+genesres
+length(genesres)
+@
+
+  \begin{itemize}
+  \item Crear una variable indicadora para una tabla original
+  \end{itemize}
+  
+<<>>=
+gg<-tom2$genes.filter
+gg[1:100]
+names(gg)
+enfermos<-gg[tom2$dicotoma2==1]#enfermos son genes predichos de resist
+enfermos[1:100]
+names(enfermos)
+annot<-read.table("annot.txt",h=T)
+annot[1:100,]
+names(annot)
+annot2<-annot$annot
+annot2[1:100]
+ind<-which(annot2%in%enfermos)
+ind[1:100]
+vec<-rep(0, length(annot2))
+vec[1:120]
+vec[ind]=1
+predenfermos<-cbind(annot2,vec)
+names(predenfermos)
+predenfermos[1:10,]
+write.table(predenfermos,"predenfermos.csv")
+@
 \end{document}
