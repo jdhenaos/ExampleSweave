@@ -1,0 +1,116 @@
+\documentclass[12pt]{article}
+
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[right=1.5cm,left=1.5cm,top=1.5cm,bottom=1.5cm]{geometry}
+
+\title{Taller 1 de R: Introducción}
+\author{Juan David Henao Sánchez}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+\maketitle
+
+ \section*{Crear objetos simples/introducir datos}
+<<>>= 
+z <- scan()#dos veces enter para terminar 
+z
+x <- c(3,8,9,6,4,5) 
+x
+w <- 1:10 
+w
+y <- seq(1, 20, 2) 
+y
+u<-rep(1,7)
+u
+u<-rep(c(1,2),c(3,4))
+u
+t<- rep(c(3,4),c(3,4))
+t
+c(u,t)
+ut1<-cbind(u,t) #combinar columnas
+ut1
+ut2<-rbind(u,t) #combinar filas
+ut2
+class(ut2)
+x <- rnorm(1000, mean = 3, sd = 2) 
+x
+x1 <- matrix(x,nrow = 10, ncol = 100) 
+x1
+class(x1)
+dim(x)
+x2<-as.data.frame(x1)
+x2
+class(x2)
+y <- x1[3, ] 
+y
+y <- x1[, -1] 
+y
+y <- x1[x1 >= 2] 
+y
+getwd()
+@
+  \section*{Leyendo Tablas}
+<<>>=
+read.table("data.txt")
+read.table("data.txt")[1:5, ]
+read.table("data.txt", header=TRUE) 
+data <- read.table("data.txt", header=TRUE)
+data
+@
+  \section*{Para caracterizar los datos y realizar gráficas}
+
+<<>>=
+summary(data)
+@
+  \begin{center}
+<<fig=TRUE>>=
+plot(data$peso, data$talla)
+@
+  \end{center}
+<<>>=
+x <- data$talla[data$sexo == "h"]
+x
+y <- data$peso[data$sexo == "h"]
+y
+@
+<<fig=TRUE>>=
+plot(x, y)
+@
+<<fig=TRUE>>=
+hist(x)
+@
+<<fig=TRUE>>=
+hist(y)
+@
+<<>>=
+par(mfrow = c(2, 2))
+x <- data$talla[data$sexo == "h"]
+x
+y <- data$peso[data$sexo == "h"]
+y
+@
+<<fig=TRUE>>=
+plot(x, y)
+@
+<<fig=TRUE>>=
+hist(x)
+@
+<<fig=TRUE>>=
+hist(y)
+@
+<<fig=TRUE>>=
+plot(0,0)
+@
+<<fig=TRUE>>=
+plot(0,0, type="n")
+@
+<<fig=TRUE>>=
+plot('This is x','This is y', type="n", xlim=c(0,100),ylim=c(0,10))
+lines(1:100,sqrt(1:100))
+title("raiz cuadrada")
+@
+  \section{Cuidado con las variables cualitativas}
+
+\end{document}
