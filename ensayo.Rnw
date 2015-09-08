@@ -194,4 +194,40 @@ names(predenfermos)
 predenfermos[1:10,]
 write.table(predenfermos,"predenfermos.csv")
 @
+
+  \section*{Estadísticos de tendencia y posición}
+<<>>=
+x<-c(1,2,3,4,5,6,6,7,8,10)
+x
+mean(x)
+var(x)
+sqrt(var(x))
+sd(x)
+median(1:4)
+range(x)
+quantile(x)
+@
+
+  \section*{Coeficientes de correlación}
+  
+<<>>=
+MicroYprot<-read.table("MicroYProtprom.txt",h=T)
+MicroYprot[1:10,]
+names(MicroYprot)
+attach(MicroYprot)
+x<-promMicro
+x[1:10]
+y<-promProt
+y[1:10]
+<<fig=TRUE>>=
+plot(x,y,xlab="cantidad de mRNA",ylab="cantidad de proteína", col="dark green")
+@
+<<>>=
+cor.test(x, y, method = "pearson", alternative = "greater")
+cor.test(x, y, method = "spearm", alternative = "g")
+cor.test(x, y, method = "kendall", alternative = "g")
+cor.test(x,y)$estimate
+@
+
+
 \end{document}

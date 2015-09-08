@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.5)  6 SEP 2015 13:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.5)  7 SEP 2015 16:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -647,116 +647,122 @@ File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 <ensayo-004.pdf, id=69, 433.62pt x 433.62pt>
 File: ensayo-004.pdf Graphic file (type pdf)
  <use ensayo-004.pdf>
-Package pdftex.def Info: ensayo-004.pdf used on input line 1043.
+Package pdftex.def Info: ensayo-004.pdf used on input line 1033.
 (pdftex.def)             Requested size: 423.151pt x 423.17148pt.
  [20]
 <ensayo-006.pdf, id=73, 433.62pt x 433.62pt>
 File: ensayo-006.pdf Graphic file (type pdf)
  <use ensayo-006.pdf>
-Package pdftex.def Info: ensayo-006.pdf used on input line 1069.
+Package pdftex.def Info: ensayo-006.pdf used on input line 1059.
 (pdftex.def)             Requested size: 423.151pt x 423.17148pt.
  [21 <./ensayo-004.pdf>] <ensayo-007.pdf, id=82, 433.62pt x 433.62pt>
 File: ensayo-007.pdf Graphic file (type pdf)
  <use ensayo-007.pdf>
-Package pdftex.def Info: ensayo-007.pdf used on input line 1075.
+Package pdftex.def Info: ensayo-007.pdf used on input line 1065.
 (pdftex.def)             Requested size: 423.151pt x 423.17148pt.
 
 [22 <./ensayo-006.pdf>] <ensayo-008.pdf, id=91, 433.62pt x 433.62pt>
 File: ensayo-008.pdf Graphic file (type pdf)
 
 <use ensayo-008.pdf>
-Package pdftex.def Info: ensayo-008.pdf used on input line 1081.
+Package pdftex.def Info: ensayo-008.pdf used on input line 1071.
 (pdftex.def)             Requested size: 423.151pt x 423.17148pt.
  [23 <./ensayo-007.pdf>]
 <ensayo-010.pdf, id=101, 433.62pt x 433.62pt>
 File: ensayo-010.pdf Graphic file (type pdf)
  <use ensayo-010.pdf>
-Package pdftex.def Info: ensayo-010.pdf used on input line 1107.
+Package pdftex.def Info: ensayo-010.pdf used on input line 1097.
 (pdftex.def)             Requested size: 423.151pt x 423.17148pt.
  [24 <./ensayo-008.pdf>] <ensayo-011.pdf, id=111, 433.62pt x 433.62pt>
 File: ensayo-011.pdf Graphic file (type pdf)
  <use ensayo-011.pdf>
-Package pdftex.def Info: ensayo-011.pdf used on input line 1113.
+Package pdftex.def Info: ensayo-011.pdf used on input line 1103.
 (pdftex.def)             Requested size: 423.151pt x 423.17148pt.
 
 [25 <./ensayo-010.pdf>] <ensayo-012.pdf, id=121, 433.62pt x 433.62pt>
 File: ensayo-012.pdf Graphic file (type pdf)
 
 <use ensayo-012.pdf>
-Package pdftex.def Info: ensayo-012.pdf used on input line 1119.
+Package pdftex.def Info: ensayo-012.pdf used on input line 1109.
 (pdftex.def)             Requested size: 423.151pt x 423.17148pt.
  [26 <./ensayo-011.pdf>]
 <ensayo-013.pdf, id=131, 433.62pt x 433.62pt>
 File: ensayo-013.pdf Graphic file (type pdf)
  <use ensayo-013.pdf>
-Package pdftex.def Info: ensayo-013.pdf used on input line 1125.
+Package pdftex.def Info: ensayo-013.pdf used on input line 1115.
 (pdftex.def)             Requested size: 423.151pt x 423.17148pt.
  [27 <./ensayo-012.pdf>] <ensayo-014.pdf, id=141, 433.62pt x 433.62pt>
 File: ensayo-014.pdf Graphic file (type pdf)
  <use ensayo-014.pdf>
-Package pdftex.def Info: ensayo-014.pdf used on input line 1131.
+Package pdftex.def Info: ensayo-014.pdf used on input line 1121.
 (pdftex.def)             Requested size: 423.151pt x 423.17148pt.
 
 [28 <./ensayo-013.pdf>]
-LaTeX Font Info:    Try loading font information for TS1+aett on input line 113
+LaTeX Font Info:    Try loading font information for TS1+aett on input line 112
 4.
  (/usr/share/R/share/texmf/tex/latex/ts1aett.fd
 File: ts1aett.fd 
 )
-LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 113
+LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 112
 4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `TS1/aett/m/sl' in size <12> not available
-(Font)              Font shape `TS1/cmtt/m/sl' tried instead on input line 1134
+(Font)              Font shape `TS1/cmtt/m/sl' tried instead on input line 1124
 .
 
 <ensayo-015.pdf, id=150, 433.62pt x 433.62pt>
 File: ensayo-015.pdf Graphic file (type pdf)
  <use ensayo-015.pdf>
-Package pdftex.def Info: ensayo-015.pdf used on input line 1139.
+Package pdftex.def Info: ensayo-015.pdf used on input line 1129.
 (pdftex.def)             Requested size: 423.151pt x 423.17148pt.
  [29 <./ensayo-014.pdf>] [30 <./ensayo-015.pdf>]
 LaTeX Font Info:    Font shape `TS1/aett/m/n' in size <12> not available
-(Font)              Font shape `TS1/cmtt/m/n' tried instead on input line 1176.
+(Font)              Font shape `TS1/cmtt/m/n' tried instead on input line 1166.
 
 
 <ensayo-017.pdf, id=170, 433.62pt x 433.62pt>
 File: ensayo-017.pdf Graphic file (type pdf)
  <use ensayo-017.pdf>
-Package pdftex.def Info: ensayo-017.pdf used on input line 1192.
+Package pdftex.def Info: ensayo-017.pdf used on input line 1182.
 (pdftex.def)             Requested size: 423.151pt x 423.17148pt.
 
 <ensayo-018.pdf, id=171, 433.62pt x 433.62pt>
 File: ensayo-018.pdf Graphic file (type pdf)
  <use ensayo-018.pdf>
-Package pdftex.def Info: ensayo-018.pdf used on input line 1198.
+Package pdftex.def Info: ensayo-018.pdf used on input line 1188.
 (pdftex.def)             Requested size: 423.151pt x 423.17148pt.
  [31 <./ensayo-017.pdf>] <ensayo-019.pdf, id=182, 433.62pt x 433.62pt>
 File: ensayo-019.pdf Graphic file (type pdf)
  <use ensayo-019.pdf>
-Package pdftex.def Info: ensayo-019.pdf used on input line 1204.
+Package pdftex.def Info: ensayo-019.pdf used on input line 1194.
 (pdftex.def)             Requested size: 423.151pt x 423.17148pt.
 
 [32 <./ensayo-018.pdf>] <ensayo-021.pdf, id=191, 433.62pt x 433.62pt>
 File: ensayo-021.pdf Graphic file (type pdf)
 
 <use ensayo-021.pdf>
-Package pdftex.def Info: ensayo-021.pdf used on input line 1226.
+Package pdftex.def Info: ensayo-021.pdf used on input line 1216.
 (pdftex.def)             Requested size: 423.151pt x 423.17148pt.
  [33 <./ensayo-019.pdf>] [34 <./ensayo-021.pdf>] [35]
 [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50]
-[51] (./ensayo.aux
+[51] [52] <ensayo-026.pdf, id=266, 433.62pt x 433.62pt>
+File: ensayo-026.pdf Graphic file (type pdf)
+ <use ensayo-026.pdf>
+Package pdftex.def Info: ensayo-026.pdf used on input line 2222.
+(pdftex.def)             Requested size: 423.151pt x 423.17148pt.
+
+[53 <./ensayo-026.pdf>] [54] (./ensayo.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 4232 strings out of 494925
- 58891 string characters out of 6178545
+ 4237 strings out of 494925
+ 59155 string characters out of 6178545
  124790 words of memory out of 5000000
- 7346 multiletter control sequences out of 15000+600000
+ 7350 multiletter control sequences out of 15000+600000
  20838 words of font info for 49 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
  37i,6n,26p,246b,284s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -767,10 +773,10 @@ ist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsltt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmtt12.pfb>
-Output written on ensayo.pdf (51 pages, 200822 bytes).
+Output written on ensayo.pdf (54 pages, 221621 bytes).
 PDF statistics:
- 291 PDF objects out of 1000 (max. 8388607)
- 200 compressed objects within 2 object streams
+ 307 PDF objects out of 1000 (max. 8388607)
+ 210 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 75 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 80 words of extra memory for PDF output out of 10000 (max. 10000000)
 
